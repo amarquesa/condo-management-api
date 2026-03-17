@@ -1,6 +1,6 @@
 # 🏢 Condominium Management API
 
-API REST para gestão de condomínios desenvolvida com Node.js, Express e PostgreSQL.
+API REST completa para gestão de condomínios com Node.js, PostgreSQL, Prisma e Swagger.
 
 ## 🚀 Tecnologias
 

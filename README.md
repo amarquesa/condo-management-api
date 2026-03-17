@@ -1,45 +1,22 @@
 # 🏢 Condominium Management API
 
-API REST para gerenciamento de condomínios, desenvolvida com Node.js, Express e PostgreSQL.
+API REST para gestão de condomínios desenvolvida com Node.js, Express e PostgreSQL.
 
-## 🚀 Funcionalidades
-
-- Cadastro e autenticação de usuários
-- Gestão de moradores e unidades
-- Controle de áreas comuns (amenities)
-- Sistema de reservas
-- Integração entre módulos do sistema
-
-## 🛠 Tecnologias
+## 🚀 Tecnologias
 
 - Node.js
 - Express
 - PostgreSQL
 - Prisma ORM
 - Swagger
-- JWT (autenticação)
 
-## 📌 Arquitetura
+## 📌 Funcionalidades
 
-Projeto estruturado em camadas:
-- Routes
-- Controllers
-- Middlewares
-- Database (Prisma)
+- Cadastro de usuários
+- Gestão de áreas comuns (amenities)
+- Sistema de reservas
+- Integração entre módulos
 
-## 🔗 Endpoints principais
+## 📸 Demonstração
 
-- POST /auth/login
-- POST /users
-- GET /users
-- POST /amenities
-- GET /amenities
-- POST /reservations
-
-## ▶️ Como rodar o projeto
-
-```bash
-npm install
-npx prisma generate
-npx prisma db push
-npm run dev
+![Swagger](./docs/swagger-condo-api.png)

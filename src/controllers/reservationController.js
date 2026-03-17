@@ -1,5 +1,4 @@
 import prisma from "../database/prismaClient.js";
-
 export const createReservation = async (req, res) => {
 
   const {

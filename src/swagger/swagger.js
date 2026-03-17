@@ -1,4 +1,4 @@
-import swaggerJSDoc from "swagger-jsdoc";
+import swaggerJsDoc from "swagger-jsdoc";
 
 const options = {
   definition: {
@@ -14,7 +14,7 @@ const options = {
       }
     ]
   },
-  apis: ["./src/routes/*.js"]
+  apis: ["./src/routes/*.js", "./src/controllers/*.js"] // 👈 força leitura
 };
 
-export const swaggerSpec = swaggerJSDoc(options);
+export const swaggerSpec = swaggerJsDoc(options);
